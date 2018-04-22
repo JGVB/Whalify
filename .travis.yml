@@ -1,5 +1,5 @@
 language: objective-c
 osx_image: xcode9.2
-xcode_project: Whalify.xcodeproj
+xcode_project: ~/GoogleDrive/iOSApps/Whalify/ Whalify.xcodeproj
 xcode_scheme: Whalify
-xcode_sdk: iphonesimulator8.4
+xcode_sdk: iphonesimulator11.2
