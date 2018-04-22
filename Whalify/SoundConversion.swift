@@ -7,10 +7,3 @@
 //
 
 import Foundation
-
-public extension Double {
-
-    public func divideBy(value: Double) -> Double {
-        return self / value
-    }
-}

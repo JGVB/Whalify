@@ -11,7 +11,4 @@ import XCTest
 
 class WhalifyTests: XCTestCase {
     
-    func testDivision() {
-        XCTAssertEqual(4, 8.0.divideBy(value: 2))
-    }
 }
