@@ -1,0 +1,11 @@
+framework module Whalify {
+  umbrella header "Whalify.h"
+
+  export *
+  module * { export * }
+}
+
+module Whalify.Swift {
+    header "Whalify-Swift.h"
+    requires objc
+}

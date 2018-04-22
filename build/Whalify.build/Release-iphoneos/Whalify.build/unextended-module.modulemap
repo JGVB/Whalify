@@ -1,0 +1,10 @@
+framework module Whalify {
+  umbrella header "Whalify.h"
+
+  export *
+  module * { export * }
+}
+
+module Whalify.__Swift {
+    exclude header "Whalify-Swift.h"
+}

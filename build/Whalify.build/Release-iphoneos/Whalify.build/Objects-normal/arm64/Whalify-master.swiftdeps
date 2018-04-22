@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "f8aa4708ea9c1a6561fca1f90094d869"
+build_time: [1524417886, 464918000]
+inputs:
+  "/Users/jamesvanbeverhoudt/GoogleDrive/iOSApps/Whalify/Whalify/SoundConversion.swift": [9223372036, 854775807]

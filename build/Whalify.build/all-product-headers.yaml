@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/jamesvanbeverhoudt/GoogleDrive/iOSApps/Whalify/build/Release-iphoneos/Whalify.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Whalify-Swift.h",
+          'external-contents': "/Users/jamesvanbeverhoudt/GoogleDrive/iOSApps/Whalify/build/Release-iphoneos/Whalify.framework/Headers/Whalify-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Whalify.h",
+          'external-contents': "/Users/jamesvanbeverhoudt/GoogleDrive/iOSApps/Whalify/Whalify/Whalify.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/jamesvanbeverhoudt/GoogleDrive/iOSApps/Whalify/build/Release-iphoneos/Whalify.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/jamesvanbeverhoudt/GoogleDrive/iOSApps/Whalify/build/Whalify.build/Release-iphoneos/Whalify.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

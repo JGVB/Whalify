@@ -1,5 +1,3 @@
 language: objective-c
 osx_image: xcode9.2
-xcode_project: Whalify.xcodeproj
-xcode_sdk: iphonesimulator11.2
-xcode_scheme: Whalify
+script: "xcodebuild clean build -configuration Debug -sdk iphonesimulator11.2 -project Whalify.xcodeproj -scheme WhalifyTests -destination 'platform=iOS Simulator,name=iPhone 8,OS=11.2' test | xcpretty --test --color"
