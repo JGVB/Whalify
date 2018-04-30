@@ -16,10 +16,12 @@ public class Whalify {
 
     public static func changePitchOf(sound url: URL) {
         let asset = AVAsset(url: url)
+        
         let playerItem = AVPlayerItem(asset: asset)
         player1 = AVPlayer(playerItem: playerItem)
         player1?.play()
-https://www.raywenderlich.com/145770/audiokit-tutorial-getting-started
+
+//https://www.raywenderlich.com/145770/audiokit-tutorial-getting-started
 //        do {
 //            player = try AVAudioPlayer(contentsOf: url)
 //
